@@ -10,8 +10,8 @@ class Sketchclt < Formula
   sha256 "1b992b6c66236835f3799479cd6b00329685c761dd2616a36424e9d24db7451d"
 
   def install
-    # inreplace "sketch", "##PREFIX##", "#{prefix}"
-    # prefix.install "sketches-core-0.8.4.jar","sketches-misc-0.8.3-SNAPSHOT.jar"
+    inreplace "sketch", "##PREFIX##", "#{prefix}"
+    prefix.install "sketches-core-0.8.4.jar","sketches-misc-0.8.3-SNAPSHOT.jar"
     bin.install "sketch"
   end
 
