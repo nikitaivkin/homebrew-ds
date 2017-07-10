@@ -5,13 +5,13 @@
 class Sketchclt < Formula
   desc ""
   homepage ""
-  url "https://github.com/nikitaivkin/sketchCLT/archive/v0.0.1.tar.gz"
-  version "0.0.1"
-  sha256 "1b992b6c66236835f3799479cd6b00329685c761dd2616a36424e9d24db7451d"
+  url "https://github.com/nikitaivkin/sketchCLT/archive/v0.0.2.tar.gz"
+  sha256 "e70b7b8c605de451f6a7db6f570d3beb79d979be9862cdb10f5ecc93fa0a7184"
+  version "0.0.2"
 
   def install
     inreplace "sketch", "##PREFIX##", "#{prefix}"
-    prefix.install "sketches-core-0.8.4.jar","sketches-misc-0.8.3-SNAPSHOT.jar"
+    prefix.install "sketches-core-0.8.4.jar","memory-0.8.4.jar","sketches-misc-0.8.3-SNAPSHOT.jar"
     bin.install "sketch"
   end
 
