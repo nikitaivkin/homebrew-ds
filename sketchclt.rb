@@ -4,7 +4,7 @@
 
 class Sketchclt < Formula
   desc "sketch Uniques, Quantiles, Histograms, or Frequent Items"
-	homepage "http://datasketches.github.io"
+  homepage "http://datasketches.github.io"
   url "https://github.com/nikitaivkin/sketchCLT/archive/v0.0.2.tar.gz"
   sha256 "e70b7b8c605de451f6a7db6f570d3beb79d979be9862cdb10f5ecc93fa0a7184"
   version "0.0.2"
