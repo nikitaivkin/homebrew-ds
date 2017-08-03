@@ -5,9 +5,9 @@
 class Sketchclt < Formula
   desc ""
   homepage ""
-  url "https://github.com/nikitaivkin/sketchCLT/archive/v0.0.4.tar.gz"
-  sha256 "c5700f524b848dd8875bee2f7a1c4f9e2f95c7f0534473d858a327b17ce40def"
-  version "0.0.4"
+  url "https://github.com/nikitaivkin/sketchCLT/archive/v0.0.5.tar.gz"
+  sha256 "ee5a0b618e6843bbacd9219daa361d90d77e5a4df0f16e5c8a16b18512a05cf1"
+  version "0.0.5"
 
   def install
     inreplace "sketch", "##PREFIX##", "#{prefix}"
