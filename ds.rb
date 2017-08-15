@@ -5,9 +5,9 @@
 class Ds < Formula
   desc ""
   homepage ""
-  url "https://github.com/nikitaivkin/ds/archive/v0.0.6.tar.gz"
-  sha256 "738de7e01051dcf35a0b10287271d48fc32a2a385ab554acf40fee67ec7215bf"
-  version "0.0.6"
+  url "https://github.com/nikitaivkin/ds/archive/v0.0.61.tar.gz"
+  sha256 "82aa0877c62dc3a494129a936d933c2811ba81be0e8464f4465ac5bc88e7c087"
+  version "0.0.61"
 
   def install
     inreplace "ds", "##PREFIX##", "#{prefix}"
