@@ -2,7 +2,7 @@
 #                http://www.rubydoc.info/github/Homebrew/brew/master/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 
-class Sketchclt < Formula
+class Ds < Formula
   desc ""
   homepage ""
   url "https://github.com/nikitaivkin/ds/archive/v0.0.6.tar.gz"
